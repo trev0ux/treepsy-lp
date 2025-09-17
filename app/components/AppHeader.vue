@@ -13,7 +13,7 @@
       <div class="flex justify-between items-center w-full">
         <div class="flex items-center gap-2">
           <logo-icon />
-          <p class="font-zodiak font-base">Treepsy</p>
+          <p class="font-zodiak">Treepsy</p>
         </div>
 
         <!-- <NuxtLink
