@@ -3,7 +3,7 @@
     <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
       <div class="flex flex-col gap-2 items-start">
         <div>
-          <h1 class="font-zodiak text-[32px] lg:text-[44px] font-medium text-primary-black mb-4">
+          <h1 class="font-zodiak text-[32px] lg:text-[44px] font-bold text-primary-black mb-4">
             Sua marca.
             <br />
             <span class="text-primary-purple">Seus pacientes.</span>
@@ -21,8 +21,8 @@
         </div>
 
         <button
-          @click="openModal"
           class="px-5 py-3 bg-primary-black hover:bg-black linear transition-all duration-200 cursor-pointer rounded-[16px] text-white mt-6 font-jakarta"
+          @click="openModal"
         >
           Experimentar gratuitamente
         </button>
@@ -35,10 +35,7 @@
     </div>
 
     <!-- Price Validation Modal -->
-    <PriceValidationModal
-      :is-open="isModalOpen"
-      @close="closeModal"
-    />
+    <PriceValidationModal :is-open="isModalOpen" @close="closeModal" />
   </section>
 </template>
 
