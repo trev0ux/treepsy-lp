@@ -1,0 +1,40 @@
+{
+  // ESLint
+  "eslint.validate": ["javascript", "typescript", "vue"],
+  "eslint.workingDirectories": ["."],
+
+  // Prettier
+  "prettier.requireConfig": true,
+
+  // Format on save
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // Vue specific
+  "files.associations": {
+    "*.vue": "vue"
+  },
+
+  // Default formatters
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Vetur (se usar)
+  "vetur.format.enable": false,
+  "vetur.validation.template": false,
+
+  // Volar (recomendado para Vue 3)
+  "typescript.preferences.includePackageJsonAutoImports": "on"
+}

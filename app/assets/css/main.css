@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+       :root {
+            --gradient-base: linear-gradient(80deg, 
+                #F9EAE9 0%, 
+                #FEFAF1 51%, 
+                #FFFDF2 68%, 
+                #EFFEFF 100%
+            );
+        }
+
+        /* Background 1: Gradiente Puro */
+        .bg-custom-gradient {
+            background: var(--gradient-base);
+        }
