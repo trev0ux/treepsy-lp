@@ -35,8 +35,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        zodiak: ['Zodiak', 'serif'],
-        jakarta: ['Plus Jakarta Sans', 'sans-serif'],
+        zodiak: ['Zodiak', 'Georgia', 'Times New Roman', 'serif'],
+        jakarta: ['Plus Jakarta Sans', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
       },
     },
   },
