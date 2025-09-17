@@ -16,12 +16,12 @@
           <p class="font-zodiak font-base">Treepsy</p>
         </div>
 
-        <NuxtLink
+        <!-- <NuxtLink
           to="/login"
           class="border-primary-black border rounded-full py-2 px-4 hover:bg-primary-black hover:text-white transition-all linear duration-200"
         >
           Entrar
-        </NuxtLink>
+        </NuxtLink> -->
       </div>
     </header>
   </div>
