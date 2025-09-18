@@ -1,7 +1,7 @@
 <template>
   <section class="my-10 container mx-auto">
     <h2 class="font-zodiak text-[24px] lg:text-[32px] font-medium text-primary-black mb-4">
-      Enquanto em outros marketplaces...
+      Enquanto em alguns marketplaces para psicólogos...
     </h2>
     <ul class="bg-white rounded-[24px] p-5 lg:p-8 flex flex-col gap-2">
       <li class="flex gap-2 items-center">

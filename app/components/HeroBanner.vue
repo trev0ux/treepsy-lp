@@ -3,12 +3,12 @@
     <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
       <div class="flex flex-col gap-2 items-start">
         <div>
-          <h1 class="font-zodiak text-[32px] lg:text-[44px] font-bold text-primary-black mb-4">
-            Sua marca.
+          <h1 class="font-zodiak text-[24px] lg:text-[32px] font-bold text-primary-black mb-4">
+            Sua
+            <span class="text-primary-purple">página profissional</span>
+            .
             <br />
-            <span class="text-primary-purple">Seus pacientes.</span>
-            <br />
-            Nossa tecnologia.
+            Não um perfil em marketplace.
           </h1>
           <p class="font-jakarta text-sm font-light max-w-[420px]">
             Tenha sua página personalizada com agendamento e pagamento integrados, sem depender de

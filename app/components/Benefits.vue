@@ -1,7 +1,7 @@
 <template>
   <section class="container mx-auto my-8">
     <h2 class="font-zodiak text-[24px] lg:text-[32px] font-medium text-primary-black mb-2">
-      Construa sua presença digital independente
+      Aqui você constrói sua presença digital independente
     </h2>
     <p class="font-jakarta text-sm lg:text-base font-light mb-4">
       Tenha o profissionalismo de um site próprio, sem abrir mão da sua autonomia.
